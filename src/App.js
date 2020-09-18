@@ -1,10 +1,12 @@
 import React from 'react';
+import WordCard from './WordCard';
 import './App.css';
 function App() {
  return (
  <div>
- Hello World
+    <WordCard value="hello"/>
  </div>
  );
 }
+
 export default App;
